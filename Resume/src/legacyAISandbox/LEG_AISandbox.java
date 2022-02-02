@@ -251,7 +251,7 @@ public class LEG_AISandbox extends Application {
 
 				// Decides what the pixel should be from its coordinates
 				decision = brain.evaluate(new double[] { ((double) i / GRAPH_WIDTH) * 2 - 1, // Formats from pixel space
-																								// to between -1 and 1
+				                                                                             // to between -1 and 1
 						((double) j / GRAPH_HEIGHT) * 2 - 1 });
 
 				// If decision is equal to MARKER_ONE_VALUE, set the pixel to MARKER_ONE_COLOUR

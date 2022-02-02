@@ -18,8 +18,7 @@ public class LEG_Brain {
 		LEG_Layer tmpInputLayer;
 		tmpNodeArray = new LEG_Node[inputLayerSize];
 		// For as many nodes as there should be in the input layer, make a new node with
-		// zero inputs...
-		// ...and add it to tmpNodeArray
+		// zero inputs and add it to tmpNodeArray
 		for (int i = 0; i < inputLayerSize; i++) {
 			tmpNodeArray[i] = new LEG_Node(0);
 		}
